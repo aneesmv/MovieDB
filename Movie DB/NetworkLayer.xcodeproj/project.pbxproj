@@ -28,8 +28,9 @@
 		CF966D6920EA8B5200877863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF966D6820EA8B5200877863 /* Main.storyboard */; };
 		CF966D8D20EA928E00877863 /* MovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF966D8B20EA928E00877863 /* MovieDB.xcdatamodeld */; };
 		CF966D8F20EA95AA00877863 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF966D8E20EA95AA00877863 /* DataController.swift */; };
-		CFB915E120EAB4A40079F41C /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB915E020EAB4A40079F41C /* MovieData.swift */; };
+		CFB915E120EAB4A40079F41C /* MovieManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB915E020EAB4A40079F41C /* MovieManagedObject.swift */; };
 		CFB915E320EABEB10079F41C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CFB915E220EABEB10079F41C /* Podfile */; };
+		CFC7A81020F26E760035348E /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC7A80F20F26E760035348E /* MovieDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,8 +72,9 @@
 		CF966D6820EA8B5200877863 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CF966D8C20EA928E00877863 /* MovieDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieDB.xcdatamodel; sourceTree = "<group>"; };
 		CF966D8E20EA95AA00877863 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		CFB915E020EAB4A40079F41C /* MovieData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		CFB915E020EAB4A40079F41C /* MovieManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieManagedObject.swift; sourceTree = "<group>"; };
 		CFB915E220EABEB10079F41C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		CFC7A80F20F26E760035348E /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		E150DACA13247E8BF8A15743 /* Pods_NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -181,7 +183,7 @@
 		012DE9142051C20700EE152D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CFB915E020EAB4A40079F41C /* MovieData.swift */,
+				CFB915E020EAB4A40079F41C /* MovieManagedObject.swift */,
 				012DE9152051C21800EE152D /* Movie.swift */,
 			);
 			path = Model;
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				011B4C5B204DB03D00A0691C /* MainViewController.swift */,
+				CFC7A80F20F26E760035348E /* MovieDetailsViewController.swift */,
 				CFB915E220EABEB10079F41C /* Podfile */,
 			);
 			path = ViewController;
@@ -405,7 +408,7 @@
 				011B4C84204DCFB500A0691C /* JSONParameterEncoder.swift in Sources */,
 				011B4C81204DCF8800A0691C /* ParameterEncoding.swift in Sources */,
 				011B4C7D204DCF3B00A0691C /* HTTPMethod.swift in Sources */,
-				CFB915E120EAB4A40079F41C /* MovieData.swift in Sources */,
+				CFB915E120EAB4A40079F41C /* MovieManagedObject.swift in Sources */,
 				CF966D8D20EA928E00877863 /* MovieDB.xcdatamodeld in Sources */,
 				011B4C7F204DCF5100A0691C /* HTTPTask.swift in Sources */,
 				012DE91D205541C000EE152D /* NetworkLogger.swift in Sources */,
@@ -417,6 +420,7 @@
 				011B4C5A204DB03D00A0691C /* AppDelegate.swift in Sources */,
 				012DE9162051C21800EE152D /* Movie.swift in Sources */,
 				0118F14B2050539F00F62D31 /* MovieEndPoint.swift in Sources */,
+				CFC7A81020F26E760035348E /* MovieDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

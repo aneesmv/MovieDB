@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class MovieData: NSManagedObject {
+class MovieManagedObject: NSManagedObject {
   @NSManaged var id: NSNumber?
   @NSManaged var rating: NSNumber?
   @NSManaged var backDrop: NSString?
@@ -17,5 +17,4 @@ class MovieData: NSManagedObject {
   @NSManaged var posterPath: NSString?
   @NSManaged var releaseDate: NSString?
   @NSManaged var title: NSString?
-  
 }

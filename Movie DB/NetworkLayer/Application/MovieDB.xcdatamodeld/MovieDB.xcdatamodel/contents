@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17E202" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="MovieData" representedClassName="MovieData" syncable="YES">
+    <entity name="MovieModel" representedClassName="MovieManagedObject" syncable="YES">
         <attribute name="backDrop" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="backDropImageData" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="overview" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="posterImageData" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="posterPath" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="rating" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="releaseDate" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="MovieData" positionX="-63" positionY="-18" width="128" height="30"/>
+        <element name="MovieModel" positionX="-63" positionY="-18" width="128" height="180"/>
     </elements>
 </model>

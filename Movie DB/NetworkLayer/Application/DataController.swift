@@ -6,7 +6,7 @@
 //  Copyright © 2018 Malcolm Kumwenda. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import CoreData
 
 class DataController: NSObject {
